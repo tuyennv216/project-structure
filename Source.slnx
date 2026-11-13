@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Apis/">
+    <Project Path="Api.Public/Api.Public.csproj" Id="0a7ba262-60bc-461b-a775-43434eb61742" />
+    <Project Path="D:/Sanvieclam/Source/Api.Manager/Api.Manager.csproj" Id="ceafd3c3-77c5-471f-b7ee-2041a66b3c69" />
+  </Folder>
+  <Folder Name="/Cores/">
+    <Project Path="D:/Sanvieclam/Source/Core.Authority/Core.Authority.csproj" Id="bca67e4a-0f3e-4c69-a2b9-bbeb533d566a" />
+    <Project Path="D:/Sanvieclam/Source/Core.History/Core.History.csproj" Id="326bd225-45e5-4f9b-bcf8-020892298278" />
+    <Project Path="D:/Sanvieclam/Source/Core.Identity/Core.Identity.csproj" />
+    <Project Path="D:/Sanvieclam/Source/Core.Metadata/Core.Metadata.csproj" Id="7b24a8ec-1d62-4a51-8f00-105c6d349804" />
+    <Project Path="D:/Sanvieclam/Source/Core.Monitor/Core.Monitor.csproj" Id="7dcfed0e-9eda-4de3-a95d-7a925c9f20d9" />
+  </Folder>
+  <Folder Name="/Packs/">
+    <Project Path="D:/Sanvieclam/Source/Pack.Information/Pack.Information.csproj" Id="6439d013-d89c-42d9-8e8a-b3bd348df8d7" />
+  </Folder>
+</Solution>
