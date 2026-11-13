@@ -21,18 +21,6 @@ namespace Pack.Information.Configs
 			services.AddScoped<CustomerRead>();
 			services.AddScoped<CustomerReadPagination>();
 
-			services.AddScoped<WorkerApprove>();
-			services.AddScoped<WorkerCreate>();
-			services.AddScoped<WorkerModify>();
-			services.AddScoped<WorkerRead>();
-			services.AddScoped<WorkerReadPagination>();
-
-			services.AddScoped<WorkshopApprove>();
-			services.AddScoped<WorkshopCreate>();
-			services.AddScoped<WorkshopModify>();
-			services.AddScoped<WorkshopRead>();
-			services.AddScoped<WorkshopReadPagination>();
-
 			return services;
 		}
 	}
