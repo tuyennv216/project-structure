@@ -26,12 +26,12 @@ namespace Pack.Information.Cases.Customers
 
 			if (!isAdmin && !canApprove) return false;
 
-			var existingIncident = await _infoDb.Customers.FindAsync(customerId);
-			if (existingIncident == null) return false;
+			var customerEntity = await _infoDb.Customers.FindAsync(customerId);
+			if (customerEntity == null) return false;
 
-			existingIncident.Status = CustomerStatus.Ok;
+			customerEntity.Status = CustomerStatus.Ok;
 
-			_infoDb.Customers.Update(existingIncident);
+			_infoDb.Customers.Update(customerEntity);
 			await _infoDb.SaveChangesAsync();
 			return true;
 		}
