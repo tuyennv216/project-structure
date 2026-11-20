@@ -22,7 +22,7 @@ namespace Pack.Information.Cases.Customers
 		public async Task<bool> ApproveAsync(Guid customerId)
 		{
 			var isAdmin = _permission.Request(_activeUser.Permissions, RoleNames.Admin);
-			var canApprove = _permission.Request(_activeUser.Permissions, AccessNames.Approve, EntityNames.Incident);
+			var canApprove = _permission.Request(_activeUser.Permissions, AccessNames.Approve, EntityNames.Customer);
 
 			if (!isAdmin && !canApprove) return false;
 
